@@ -26,9 +26,8 @@ function Menu() {
       <nav className={styles.menu}>
         <div className={styles.logo}>
           <a href="#">
-          <img src="/img/logo.png" alt="Logo" />
+            <img src="/img/logo.png" alt="Logo" />
           </a>
-          
         </div>
         <div onClick={aoClicar} className={styles.menuButton}>
           <AiOutlineMenu />

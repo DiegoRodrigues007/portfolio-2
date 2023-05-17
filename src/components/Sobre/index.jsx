@@ -1,11 +1,13 @@
 import CardSobre from "../CardSobre";
 import styles from "./Sobre.module.scss";
 import { MdDesignServices } from "react-icons/md";
+import { MdComputer } from "react-icons/md";
+import { MdCode } from "react-icons/md";
 const Sobre = () => {
   const descricoes = [
     { title: "UI & UX Designing ", icon: <MdDesignServices /> },
-    { title: "WEB DEVELOPMENT ", icon: <MdDesignServices /> },
-    { title: "BACK END DEVELOPMENT ", icon: <MdDesignServices /> },
+    { title: "WEB DEVELOPMENT ", icon: <MdComputer /> },
+    { title: "BACK END DEVELOPMENT ", icon: <MdCode /> },
   ];
 
   return (

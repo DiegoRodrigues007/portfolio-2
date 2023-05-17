@@ -13,7 +13,7 @@ $color-orange: #b16940;
       align-items: center;
       justify-content: center;
       h2 {
-        font-weight: 500;
+        font-weight: 400;
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-top: 30px;
@@ -27,10 +27,12 @@ $color-orange: #b16940;
     .textSobre {
       line-height: 32px;
       margin-top: 30px;
+      font-weight: 300;
     }
     .textInline {
       display: flex;
       align-items: center;
+      font-weight: 300;
       span {
         font-weight: 800;
         font-size: 50px;
