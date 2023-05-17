@@ -3,11 +3,14 @@ $color-orange: #b16940;
 .containerSobre {
   background-color: #e5e6e7;
   height: 100vh;
+  
+  
 
   .container {
     max-width: 1200px;
     margin-left: 50px;
-
+    
+    
     .titleSobre {
       display: flex;
       align-items: center;
@@ -46,6 +49,11 @@ $color-orange: #b16940;
       display: flex;
       justify-content: space-between;
       margin-top: 50px;
+    }
+
+    .borda{
+      margin-top:140px;
+      border-bottom: 1px solid rgb(192, 192, 192);
     }
   }
 }

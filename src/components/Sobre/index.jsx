@@ -41,6 +41,9 @@ const Sobre = () => {
             </div>
           ))}
         </div>
+        <div className={styles.borda}>
+          
+        </div>
       </div>
     </section>
   );
