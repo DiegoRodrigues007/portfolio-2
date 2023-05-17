@@ -1,0 +1,51 @@
+$bg-color: #0e0e1b;
+$color-title: #6c7177;
+
+.containerBanner {
+  background-color: $bg-color;
+  color: $color-title;
+  display: flex;
+  flex-direction: column;
+  padding: 180px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  .textBanner {
+    h1 {
+      font-size: 48px;
+      letter-spacing: 2px;
+      font-weight: 200;
+      span {
+        color: #be7246;
+      }
+    }
+
+    p {
+      max-width: 500px;
+      text-align: center;
+      font-size: 18px;
+      margin-left: 150px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-weight: 300;
+    }
+
+    a {
+      text-align: center;
+      display: inline-block;
+      background-color: #be7246;
+      padding: 10px;
+      width: 150px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      margin-left: 320px;
+      font-weight: 300;
+      margin-top: 20px;
+       
+      &:hover{
+        background-color: #b16940;
+      }
+    }
+  }
+}
