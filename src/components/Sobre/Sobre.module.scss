@@ -3,15 +3,12 @@ $color-orange: #b16940;
 .containerSobre {
   background-color: #e5e6e7;
   height: 100vh;
-  
-  
 
   .container {
     width: 100%;
     // margin: 0px 30px 0px 30px;
     padding: 20px;
-    
-    
+
     .titleSobre {
       display: flex;
       align-items: center;
@@ -53,8 +50,8 @@ $color-orange: #b16940;
       margin-top: 50px;
     }
 
-    .borda{
-      margin-top:140px;
+    .borda {
+      margin-top: 140px;
       border-bottom: 1px solid rgb(192, 192, 192);
     }
   }
