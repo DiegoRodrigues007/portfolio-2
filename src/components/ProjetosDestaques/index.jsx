@@ -28,9 +28,12 @@ const ProjetosDestaques = () => {
 
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>
-        Portfólio <span class="ponto-2">.</span>
-      </h2>
+      <div className={styles.title}>
+        <h2 >
+          Portfólio <span class="ponto-2">.</span>
+        </h2>
+      </div>
+
       <div>
         {conteudoProjeto.map((conteudo) => (
           <div key={conteudo.key}>
