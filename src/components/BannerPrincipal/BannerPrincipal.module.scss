@@ -50,17 +50,35 @@ $color-orange: #F27405;
   }
   
 }
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
   .containerBanner {
     display: flex;
     justify-content: center;
     flex-direction: column;
     .textBanner {
-    h1 {
-      font-size: 20px;
-      letter-spacing: 2px;
-      font-weight: 300;
-      
+      h1 {
+        font-size: 35px;
+        letter-spacing: 2px;
+        font-weight: 300;
+        span {
+          color: $color-orange;
+        }
+      }
+    p{
+      margin-left: 0;
+    }
+    a{
+      margin-left: 80px;
     }
   }
 }
