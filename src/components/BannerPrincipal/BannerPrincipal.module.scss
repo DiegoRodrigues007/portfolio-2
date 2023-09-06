@@ -1,6 +1,7 @@
 $bg-color: #0e0e1b;
-$color-title: #6c7177;
-
+$color-title: #BFBFBF;
+// $color-orange:#FF7300;
+$color-orange: #F27405;
 .containerBanner {
   background-color: $bg-color;
   color: $color-title;
@@ -16,7 +17,7 @@ $color-title: #6c7177;
       letter-spacing: 2px;
       font-weight: 300;
       span {
-        color: #be7246;
+        color: $color-orange;
       }
     }
 
@@ -33,7 +34,7 @@ $color-title: #6c7177;
     a {
       text-align: center;
       display: inline-block;
-      background-color: #be7246;
+      background-color: $color-orange;
       padding: 10px;
       width: 150px;
       border-radius: 5px;
@@ -47,5 +48,14 @@ $color-title: #6c7177;
         background-color: #b16940;
       }
     }
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+  .containerBanner {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
   }
 }

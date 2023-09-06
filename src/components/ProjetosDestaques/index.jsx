@@ -18,7 +18,7 @@ const ProjetosDestaques = () => {
       git: "#",
     },
     {
-      img: "/img/pc.png",
+      img: "/img/nikee.png",
       title: "Página Nike",
       text: "olaaaaaaaaaaaa",
       site: "#",

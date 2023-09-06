@@ -1,7 +1,7 @@
 .container {
   background-color: #e5e6e7;
   width: 100%;
- 
+  
     
   .title {
     display: flex;
@@ -20,6 +20,11 @@
             color: #b16940;
             font-size: 32px;
         }
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+      position: absolute;
     }
   }
 }
