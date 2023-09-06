@@ -1,96 +1,180 @@
-// .container {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   .containerSection {
+$color-orange:#F27405;
+$bg-color:#0e0e1b;
+$color-white:#BFBFBF;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  .containerSection {
     
-//     width: 100%;
-//     border-bottom: 1px solid rgb(192, 192, 192);
-//     margin-left:58px;
-//     .sectionDisplay {
-//       display: flex;
-      
-//         // background-color: red;
-//       justify-content: center;
-//       //   margin-left: 10px;
-//       align-items: center;
-//       width: 100%;
-      
-      
-//       .imgContainer {
-//         width: 500px;
-//       }
+    width: 100%;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    
+    .sectionDisplay {
+      display: flex;
+      justify-content: center;
+        margin-left: 10px;
+      align-items: center;
+      width: 100%;
+      .imgContainer {
+        width: 500px;
+      }
 
-//       .content {
-//         margin-left: 100px;
-//         .star {
-//           display: flex;
-//           align-items: center;
+      .content {
+        
+        .star {
+          display: flex;
+          align-items: center;
 
-//           .icon {
-//             color: #b16940;
-//             font-size: 30px;
-//             margin-right: 15px;
-//           }
+          .icon {
+            color: $color-orange;
+            font-size: 30px;
+            
+          }
 
-//           h2 {
-//             border-bottom: 2px solid #b16940;
-//             font-size: 23px;
-//             text-transform: uppercase;
-//             font-weight: 400;
-//             margin-left: 10px;
-//           }
-//         }
+          h2 {
+            border-bottom: 2px solid $color-orange;
+            font-size: 23px;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-left: 10px;
+          }
+        }
 
-//         p {
-//           max-width: 600px;
-//           line-height: 32px;
-//           font-size: 17px;
-//           font-weight: 300;
-//           margin-top: 30px;
-//         }
+        p {
+          max-width: 600px;
+          line-height: 32px;
+          font-size: 17px;
+          font-weight: 300;
+          margin-top: 30px;
+        }
 
-//         .btns {
-//           display: flex;
-//           a {
-//             text-decoration: none;
-//           }
-//           .button {
-//             display: flex;
-//             justify-content: center;
-//             align-items: center;
-//             margin-top: 60px;
-//             background-color: #0e0e1b;
-//             padding: 10px;
-//             border-radius: 10px;
-//             width: 160px;
-//             color: white;
-//             box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-//           }
+        .btns {
+          display: flex;
+          a {
+            text-decoration: none;
+          }
+          .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            background-color: $bg-color;
+            padding: 10px;
+            border-radius: 10px;
+            width: 160px;
+            color: $color-white;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          }
 
-//           .buttonGit {
-//             display: flex;
-//             justify-content: center;
-//             align-items: center;
-//             margin-top: 60px;
-//             background-color: #0e0e1b;
-//             padding: 10px;
-//             border-radius: 10px;
-//             width: 160px;
-//             color: white;
-//             margin-left: 30px;
-//             box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-//           }
-//         }
-//       }
+          .buttonGit {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            background-color: $bg-color;
+            padding: 10px;
+            border-radius: 10px;
+            width: 160px;
+            color: $color-white;
+            margin-left: 30px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+  }
+  
+}
 
-      
-//     }
-//   }
-//   @media only screen and (max-width: 600px) {
-//     .containerSection {
-//       background-color: red;
-//       min-height: 100px;
-//     }
-//   }
-// }
+@media only screen and (max-width: 600px) {
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  .containerSection {
+    
+    // width: 100%;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    // margin-left:58px;
+    .sectionDisplay {
+      display: flex;
+      justify-content: center;
+      //   margin-left: 10px;
+      align-items: center;
+      // width: 100%;
+      .imgContainer {
+        width: 280px;
+      }
+
+      .content {
+        // margin-left: 100px;
+        .star {
+          display: flex;
+          align-items: center;
+
+          .icon {
+            color: $color-orange;
+            font-size: 30px;
+            // margin-right: 15px;
+          }
+
+          h2 {
+            border-bottom: 2px solid $color-orange;
+            font-size: 23px;
+            text-transform: uppercase;
+            font-weight: 400;
+            // margin-left: 10px;
+          }
+        }
+
+        p {
+          // max-width: 300px;
+          line-height: 32px;
+          font-size: 17px;
+          font-weight: 300;
+          // margin-top: 30px;
+        }
+
+        .btns {
+          display: flex;
+          a {
+            text-decoration: none;
+          }
+          .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // margin-top: 60px;
+            background-color: $bg-color;
+            // padding: 10px;
+            border-radius: 10px;
+            // width: 80px;
+            color: $color-white;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          }
+
+          .buttonGit {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // margin-top: 60px;
+            background-color: $bg-color;
+            // padding: 10px;
+            border-radius: 10px;
+            // width: 80px;
+            color: $color-white;
+            // margin-left: 30px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+  }
+  
+}
+    
+    
+}

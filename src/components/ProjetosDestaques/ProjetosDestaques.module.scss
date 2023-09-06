@@ -1,5 +1,7 @@
+$bg-color:#e5e6e7;
+$color-text:#F27405;
 .container {
-  background-color: #e5e6e7;
+  background-color:$bg-color;
   width: 100%;
   
     
@@ -10,21 +12,22 @@
     
     h2 {
       font-weight: 400;
-      border-bottom: 2px solid #b16940;
+      border-bottom: 2px solid $color-text;
       letter-spacing: 1px;
         text-transform: uppercase;
         margin-top: 30px;
         margin-bottom: 50px;
 
         span{
-            color: #b16940;
+            color: $color-text;
             font-size: 32px;
         }
     }
   }
-  @media only screen and (max-width: 600px) {
+  
+}
+@media only screen and (max-width: 600px) {
     .container {
-      position: absolute;
+      background-color: BLUE;
     }
   }
-}

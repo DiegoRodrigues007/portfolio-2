@@ -1,6 +1,5 @@
 $bg-color: #0e0e1b;
 $color-title: #BFBFBF;
-// $color-orange:#FF7300;
 $color-orange: #F27405;
 .containerBanner {
   background-color: $bg-color;
@@ -55,7 +54,14 @@ $color-orange: #F27405;
   .containerBanner {
     display: flex;
     justify-content: center;
-    
     flex-direction: column;
+    .textBanner {
+    h1 {
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: 300;
+      
+    }
   }
+}
 }

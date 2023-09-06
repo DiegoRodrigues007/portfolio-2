@@ -19,7 +19,7 @@ const ProjetosDestaques = () => {
     },
     {
       img: "/img/nikee.png",
-      title: "Página Nike",
+      title: "Página Nikeeeee",
       text: "olaaaaaaaaaaaa",
       site: "#",
       git: "#",
@@ -37,7 +37,7 @@ const ProjetosDestaques = () => {
       <div>
         {conteudoProjeto.map((conteudo) => (
           <div key={conteudo.key}>
-            <ProjetosImg img={conteudo.img} text={conteudo.text} />
+            <ProjetosImg img={conteudo.img} text={conteudo.text} title={conteudo.title} />
           </div>
         ))}
       </div>

@@ -1,7 +1,12 @@
+$bg-color: #0e0e1b;
+$color-hover:#F27405;
+$color-text:#BFBFBF;
+$color-icons:#F27405;
+
 .container {
 
   
-  background-color: #0e0e1b;
+  background-color: $bg-color;
   min-width: 350px;
   border-radius: 10px;
   height: 200px;
@@ -9,7 +14,7 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   
   &:hover {
-    border-bottom: 6px solid #b16940;
+    border-bottom: 6px solid $color-hover;
   }
   .containerCard {
     width: 100%;
@@ -17,7 +22,9 @@
     
     justify-content: center;
     align-items: center;
-    color: white;
+    color: $color-text;
+
+    // DENTRO DO CARD
     .card {
       
       // width: 100%;
@@ -25,7 +32,7 @@
       .iconCard {
         text-align: center;
         font-size: 35px;
-        color: #b16940;
+        color: $color-icons;
       }
 
       .textCard {
