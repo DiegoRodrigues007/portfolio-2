@@ -26,6 +26,7 @@ $color-white:#BFBFBF;
         .star {
           display: flex;
           align-items: center;
+          margin-top: 30px;
 
           .icon {
             color: $color-orange;
@@ -51,6 +52,7 @@ $color-white:#BFBFBF;
         }
 
         .btns {
+          margin-bottom: 30px;
           display: flex;
           a {
             text-decoration: none;
@@ -90,35 +92,40 @@ $color-white:#BFBFBF;
 
 @media only screen and (max-width: 600px) {
 
-  $color-orange:#F27405;
-$bg-color:#0e0e1b;
-$color-white:#BFBFBF;
+
 .container {
-  display: block;
+  display: inline-block;
   margin: 0;
   padding: 0;
   .containerSection {
-      display: block;
+      display: inline-block;
       
     
     .sectionDisplay {
-      display: flex;
+      // background-color: aqua;
+      display: block;
       width: 100%;
       margin-left: 0;
-      
+      text-align: center;
       .imgContainer {
-          display: block;
-        
+        margin-top: 30px;
+          display: inline;
+          // background-color: green;
           // background-color: #F27405;
           width: 200px;
+          text-align: center;
       }
 
       .content {
+        
         display: block;
+        
         // background-color: #F27405;
         .star {
-          display: block;
-
+          display: flex;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          justify-content:  center;
           .icon {
             
             
@@ -126,24 +133,39 @@ $color-white:#BFBFBF;
 
           h2 {
             
+            // background-color: red;
+            text-align: center;
           }
         }
 
         p {
           display: block;
+          // background-color: #F27405;
+          margin-top: 0;
+          margin-bottom: 0;
+          margin-left: 20px;
+          margin-right: 20px;
         }
 
         .btns {
-          
+          // background-color: red;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 30px;
+          // margin-bottom: 50px;
           a {
             
           }
           .button {
-            display: block;
+            margin: 20px;
+            
           }
 
           .buttonGit {
             margin-left: 0;
+            margin: 20px;
+            // margin-bottom: 80px;
           }
         }
       }
